@@ -1,9 +1,18 @@
 import React from 'react'
+import Form from'./Form'
+import List from './List'
+
 
 const Todo = () => {
+
+  const [ListArr,setListArr]=React.useState([])
+  
   return (
     <div className='MainTodo'>
-      <h1>salam</h1>
+      <div className="container">
+      <Form setTodos={setListArr}/>
+      <List todos={ListArr} setListArr={setListArr} />
+      </div>
     </div>
   )
 }

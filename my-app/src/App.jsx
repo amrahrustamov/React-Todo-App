@@ -1,8 +1,10 @@
+
 import './App.css';
-import Todo from'./Todo';
 import Header from'./Layout/Header';
+import Todo from'./Todo/index';
 import Footer from'./Layout/Footer';
 function App() {
+
   return (
     <>
     <Header />
