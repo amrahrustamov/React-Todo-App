@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+.MainTodo {
+  min-height: 400px;
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}/*# sourceMappingURL=App.css.map */
