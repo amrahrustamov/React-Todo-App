@@ -11,7 +11,7 @@ const List = ({ListArr,setListArr}) => {
     }
   return (
       <ul>
-        {ListArr.map((value,index)=><li key={index} onClick={()=>removeItem(index)} ><input type="checkbox"/><p>{value}</p></li>)}
+        {ListArr?.map((value,index)=><li key={index} onClick={()=>removeItem(index)} ><input type="checkbox"/><p>{value}</p></li>)}
       </ul>
   )
 }
